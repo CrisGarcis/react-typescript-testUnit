@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "63740f5fe2c75d8744f80a36",
+    "name": "Pantalón chino",
+    "description": "Un poco de elástico añade comodidad y flexibilidad a estos clásicos pantalones sueltos caqui.",
+    "price": 22.98,
+    "category": "hombre",
+    "image": "http://peticiones.online/images/products/image11.png",
+    "active": true
+  },
+  {
+    "_id": "63740f5fe2c75d8744f80a37",
+    "name": "Vestido Cruzado con Manga Casquillo",
+    "description": "Ajustado en la zona del pecho y la cintura; se ensancha hacia el dobladillo",
+    "price": 15.99,
+    "category": "mujer",
+    "image": "http://peticiones.online/images/products/image12.png",
+    "active": true
+  }
+]

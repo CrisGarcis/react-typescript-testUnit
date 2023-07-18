@@ -1,0 +1,26 @@
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.product {
+  width: 500px;
+  display: flex;
+  background-color: lightgray;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  &img {
+    width: 100%;
+  }
+}
+
+.product_left {
+  width: 30%;
+  background-size: cover;
+  background-position: center center;
+  padding: 30px;
+  border-radius: 10px 0 0 10px;
+}

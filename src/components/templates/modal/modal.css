@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.flex {
+  display: flex;
+}
+
+.modal-overlay {
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.modal-box {
+  display: block;
+  background: white;
+  width: 50vw;
+  height: 50vh;
+  padding: 1rem;
+  border-radius: 1rem;
+  position: relative;
+  z-index: 9999;
+  margin: auto;
+}
