@@ -1,5 +1,6 @@
 // Make the `request` function generic
 // to specify the return data type:
+
 export function request<TResponse>(
   url: string,
   config: RequestInit = {}
